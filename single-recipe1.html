@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Cheese Scones</h2>
+            <p>
+              Cheese scones are delightful baked treats, blending the light and flaky texture of traditional 
+              scones with the savory richness of cheese. These golden-brown delights boast a perfect balance of 
+              buttery notes and sharp cheese flavor. Ideal for breakfast or a savory snack, cheese scones offer a 
+              comforting and satisfying indulgence.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="tag-template.html">cheese</a>
+              <a href="tag-template.html">breakfast</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Heat the oven to 200C/180C fan/gas 6 with a large baking tray inside. Sift the flour, salt, cayenne 
+                pepper and baking powder into a bowl, then sift again to make sure the ingredients are thoroughly
+                combined.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Add the butter to the bowl and combine with your fingertips to make breadcrumbs. Sprinkle 100g of 
+                the cheese into the breadcrumb mixture and rub together until evenly distributed. Try not to mix 
+                too much as the heat from your hands may start to melt the butter.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Make a well in the centre of the mixture and pour in enough milk to give a fairly soft but 
+                firm dough. Do not pour in all the milk at once as you may not need it all to get the right 
+                consistency.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Lightly flour a surface and roll out the dough to approximately 2cm thick. Cut out the scones with 
+                a medium (about 8cm) cutter, then put on a sheet of baking parchment, glaze with a little milk and 
+                sprinkle with the remaining cheese. Slide onto the hot oven tray.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 5</p>
+                <div></div>
+              </header>
+              <p>
+                Bake in the oven for 15-20 mins or until golden brown and cooked through.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">225g self-raising flour, plus extra for dusting</p>
+              <p class="single-ingredient">pinch of salt</p>
+              <p class="single-ingredient">pinch of cayenne pepper</p>
+              <p class="single-ingredient">1 tsp baking powder</p>
+              <p class="single-ingredient">55g chilled butter, cut into cubes</p>
+              <p class="single-ingredient">120g mature cheddar, grated</p>
+              <p class="single-ingredient">90-100ml milk, plus 1 tbsp for glazing</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Bakey</span> Built by
+        <a href="https://www.linkedin.com/in/udesh-randika-dangalla/">Udesh Dangalla</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
